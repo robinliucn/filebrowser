@@ -6,9 +6,9 @@ import (
 
 	"github.com/spf13/afero"
 
-	"github.com/filebrowser/filebrowser/v2/errors"
-	"github.com/filebrowser/filebrowser/v2/files"
-	"github.com/filebrowser/filebrowser/v2/rules"
+	"github.com/robinliucn/filebrowser/v2/errors"
+	"github.com/robinliucn/filebrowser/v2/files"
+	"github.com/robinliucn/filebrowser/v2/rules"
 )
 
 // ViewMode describes a view mode.

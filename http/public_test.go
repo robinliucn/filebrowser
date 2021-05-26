@@ -10,10 +10,10 @@ import (
 	"github.com/asdine/storm"
 	"github.com/spf13/afero"
 
-	"github.com/filebrowser/filebrowser/v2/settings"
-	"github.com/filebrowser/filebrowser/v2/share"
-	"github.com/filebrowser/filebrowser/v2/storage/bolt"
-	"github.com/filebrowser/filebrowser/v2/users"
+	"github.com/robinliucn/filebrowser/v2/settings"
+	"github.com/robinliucn/filebrowser/v2/share"
+	"github.com/robinliucn/filebrowser/v2/storage/bolt"
+	"github.com/robinliucn/filebrowser/v2/users"
 )
 
 func TestPublicShareHandlerAuthentication(t *testing.T) {
